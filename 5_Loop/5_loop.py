@@ -8,3 +8,10 @@ while(i < 12):
 while(i < 15):
     print("#",i)
     i += 1
+
+s = 0
+while(True):
+    print(s)
+    s += 1
+    if(s > 10):
+        break

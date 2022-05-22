@@ -20,6 +20,14 @@ int main()
       cout << "# " << i << endl;
       i++;
   }
-  
+
+  int s = 0;
+  while(true)
+  {
+    cout << s << endl;
+    s += 1;
+    if(s > 10) break;
+  }
+    
   return 0;
 }
