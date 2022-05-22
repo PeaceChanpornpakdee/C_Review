@@ -8,6 +8,8 @@ int combine(int a, int b)
     a = 0;
 }
 
+void swap(int &c, int &d); //Pass by Reference
+
 int main() 
 {
   int a = 1;
@@ -18,5 +20,16 @@ int main()
 
 //   { int c = 999; }
 //   cout << c << endl;
+
+  swap(a, b);
+  cout << a << " , " << b << endl;
+
   return 0;
+}
+
+void swap(int &c, int &d)
+{
+  int e = c;
+  c = d;
+  d = e;
 }
