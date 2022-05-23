@@ -24,9 +24,10 @@ int main()
   int s = 0;
   while(true)
   {
-    cout << s << endl;
     s += 1;
+    if(s == 4) continue;
     if(s > 10) break;
+    cout << s << endl;
   }
     
   return 0;

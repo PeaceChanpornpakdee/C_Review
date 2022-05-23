@@ -11,7 +11,9 @@ while(i < 15):
 
 s = 0
 while(True):
-    print(s)
     s += 1
+    if(s == 4):
+        continue
     if(s > 10):
         break
+    print(s)
