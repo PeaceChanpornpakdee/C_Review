@@ -1,6 +1,6 @@
 a = 3;
 
-if(a < 0):
+if a < 0 :
     print("Negative")
 elif(a == 0):
     print("Zero")

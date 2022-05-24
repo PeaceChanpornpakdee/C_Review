@@ -7,19 +7,25 @@ int main()
   {
     cout << "- " << i << endl;
   }
-//   cout << i;
-  int i = 9;
-  while(i < 12)
-  {
-      cout << "* " << i << endl;
-      i++;
-  }
 
-  while(i < 15)
-  {
-      cout << "# " << i << endl;
-      i++;
-  }
+  // {
+  //   int i = 99 ;
+  //   cout << i << endl;
+  // }
+  // cout << i << endl;
+
+  // int i = 9;
+  // while(i < 12)
+  // {
+  //     cout << "* " << i << endl;
+  //     i++;
+  // }
+
+  // while(i < 15)
+  // {
+  //     cout << "# " << i << endl;
+  //     i++;
+  // }
 
   int s = 0;
   while(true)

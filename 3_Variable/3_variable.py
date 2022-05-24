@@ -1,4 +1,4 @@
-a = 10
+a = 11/2  
 print(a, type(a))
 a = 'A'
 print(a, type(a))

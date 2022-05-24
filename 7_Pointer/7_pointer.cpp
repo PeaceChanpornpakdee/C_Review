@@ -5,19 +5,19 @@ using namespace std;
 
 void show(int *c) //Passing Pointer 
 {
-    cout << "\" " << c << " \"" << endl;
+    cout << "* " << c << " *" << endl;
 }
 
 void show(int &d) //Pass by Reference
 {
     d = 5555;
-    cout << "\" " << d << " \"" << endl;
+    cout << "^ " << d << " ^" << endl;
 }
 
 void show(char e) //Pass by Value
 {
     e = '$';
-    cout << "\" " << e << " \"" << endl;
+    cout << "- " << e << " -" << endl;
 }
 
 int main() 
@@ -34,6 +34,7 @@ int main()
   show(q);
   cout << q << '\n' << endl;
 
+  cout << a << '\n';
   show(a);
   cout << a << '\n' << endl;
 

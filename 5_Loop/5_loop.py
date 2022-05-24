@@ -12,8 +12,9 @@ while(i < 15):
 s = 0
 while(True):
     s += 1
-    if(s == 4):
-        continue
-    if(s > 10):
+    if(s == 10):
         break
+    if(s % 2 == 0):
+        continue
+    
     print(s)

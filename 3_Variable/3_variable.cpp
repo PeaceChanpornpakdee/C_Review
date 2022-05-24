@@ -31,8 +31,11 @@ int main()
   cout << "---------EXTRA----------"<< endl;
 
   int d = 255;             cout << d << endl; 
+            //0b11111111
       d = d & 0b00001111;  cout << d << endl; //Bitwise Operator - AND
+            //0b00001111
       d = d | 0b00010000;  cout << d << endl; //Bitwise Operator - OR
+            //0b00011111;
       d = d << 1;          cout << d << endl; //Bitwise Operator - LEFT SHIFT
       d = d >> 2;          cout << d << endl; //Bitwise Operator - RIGHT SHIFT
 
